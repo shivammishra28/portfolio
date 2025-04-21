@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
 
@@ -14,14 +14,31 @@ import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 
 function App() {
+	const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "light");
+
 	useEffect(() => {
 		if (TRACKING_ID !== "") {
 			ReactGA.initialize(TRACKING_ID);
 		}
 	}, []);
 
+	useEffect(() => {
+		document.documentElement.setAttribute("data-theme", theme);
+		localStorage.setItem("theme", theme);
+	}, [theme]);
+
+	const toggleTheme = () => {
+		setTheme(prev => (prev === "light" ? "dark" : "light"));
+	};
+
 	return (
 		<div className="App">
+			<header style={{ padding: "1rem" }}>
+				{/* <button onClick={toggleTheme}>
+					{theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
+				</button> */}
+			</header>
+
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />

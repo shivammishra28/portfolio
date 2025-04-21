@@ -5,10 +5,29 @@
 	--tertiary-color: #acacb4;
 	--quaternary-color: #e4e4e7;
 	--link-color: #14b8a6;
+	--bg: #ffffff;
+	--text: #000000;
+	--link: #14b8a6;
 	/* ---------------------- */
 
 	/* ------- fonts ------- */
 	--primary-font: "Heebo", sans-serif;
 	--secondary-font: "Roboto", sans-serif;
 	/* --------------------- */
+}
+
+/* Dark Theme */
+
+[data-theme="dark"] {
+	--bg: #121212;
+	--text: #ffffff;
+	--link: #0fffc3;
+	--primary-color: #e4e4e7;
+	--secondary-color: #acacb4;
+	--link-color: #0fffc3;
+}
+
+body {
+	background-color: var(--bg);
+	color: var(--text);
 }
