@@ -68,6 +68,58 @@
 .about-socials-mobile {
 	display: none;
 }
+.about-section {
+	background-color: #000;
+	color: #cfcfcf;
+	padding: 80px 40px;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about-heading {
+	font-size: 3rem;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 20px;
+  }
+  
+  .highlight {
+	color: #007bff;
+  }
+  
+  .about-text {
+	max-width: 800px;
+	margin: 0 auto 40px;
+	font-size: 1.1rem;
+	line-height: 1.8;
+  }
+  
+  .button-group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 15px;
+  }
+  
+  .btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	background: transparent;
+	border: 2px solid #007bff;
+	padding: 10px 20px;
+	color: #007bff;
+	border-radius: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+	background-color: #007bff;
+	color: white;
+  }
+  
 
 @media (max-width: 1024px) {
 	.about-logo {

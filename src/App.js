@@ -14,7 +14,6 @@ import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 
 function App() {
-	const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "light");
 
 	useEffect(() => {
 		if (TRACKING_ID !== "") {
@@ -22,23 +21,9 @@ function App() {
 		}
 	}, []);
 
-	useEffect(() => {
-		document.documentElement.setAttribute("data-theme", theme);
-		localStorage.setItem("theme", theme);
-	}, [theme]);
-
-	const toggleTheme = () => {
-		setTheme(prev => (prev === "light" ? "dark" : "light"));
-	};
-
 	return (
 		<div className="App">
-			<header style={{ padding: "1rem" }}>
-				{/* <button onClick={toggleTheme}>
-					{theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
-				</button> */}
-			</header>
-
+			
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />

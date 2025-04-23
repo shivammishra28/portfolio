@@ -16,12 +16,17 @@ import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
+import Skills from "../components/MySkills/Skills";
+import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FiDownload } from "react-icons/fi";
+import "./styles/about.css";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+import ProjectExperience from "../components/ProjectTimeline/PRojectExperience";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -93,15 +98,15 @@ const Homepage = () => {
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									{INFO.about.title}
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									{INFO.about.description}
 								</div>
 							</div>
 
-							<div className="homepage-first-area-right-side">
+							{/* <div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
@@ -111,60 +116,28 @@ const Homepage = () => {
 										/>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 
-						<div className="homepage-socials">
-							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faXTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faMailBulk}
-									className="homepage-social-icon"
-								/>
-							</a>
+							<div className="button-group">
+													<a href="/assets/SHIVAM MISHRA CV.pdf" className="btn" download="Shivam_Mishra_Resume.pdf">
+														Resume <FiDownload />
+													</a>
+													<a href="https://www.linkedin.com/in/shivam-mishra-b409a8281" className="btn">
+														Linkedin <FaLinkedin />
+													</a>
+													<a href="https://www.github.com/shivammishra28" className="btn">
+														Github <FaGithub />
+													</a>
+													<a href="https://x.com/shivammishra18_" className="btn">
+														Twitter <FaXTwitter />
+													</a>
+												</div>
+						<div>
+							<Skills/>
+						</div>
+						<div>
+							<ProjectExperience/>
 						</div>
 
 						<div className="homepage-projects">

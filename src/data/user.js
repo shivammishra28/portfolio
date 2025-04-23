@@ -22,10 +22,9 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Shivam Mishra. I live in India, where I design the future.",
+		title: "Hello, I'm SHIVAM",
 		description:
-			"Hello! I'm Shivam Mishra, a passionate and dedicated B.Tech student specializing in Information Technology. With a strong foundation in MERN stack development and a keen interest in digital marketing and branding, I strive to bridge the gap between technology and user experience."
-			
+			"I'm a versatile software developer with a strong foundation in software development and a genuine passion for emerging technologies. While I haven’t followed the traditional route of internships or formal work experience, I’ve spent countless hours building hands-on projects that reflect my skills, curiosity, and drive to learn  thrive in environments that challenge me to adapt, grow, and innovate. From writing clean, efficient code to exploring new tools and frameworks, I'm constantly evolving as a developer. My journey is driven by a deep love for problem-solving and a commitment to continuous improvement."
 	},
 
 	articles: {
