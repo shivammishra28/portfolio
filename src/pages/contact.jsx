@@ -70,7 +70,7 @@ const Contact = () => {
 
 					{/* Contact Form */}
 					<div className="form-wrapper">
-						<form  onSubmit={handleSubmit} className="contact-form">
+						<form  className="contact-form">
 							<div className="form-group">
 								<label>Name</label>
 								<input type="text"  name="name" placeholder="Your name" />
