@@ -23,9 +23,16 @@
 }
 
 .article-right-side:hover {
-	background: #fafafa;
+	background:#d1d5db;
+	
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
+}
+.article-right-side:hover .article-title {
+	color: black;
+}
+.article-right-side:hover .article-description {
+	color: black;
 }
 
 .article-date {
@@ -35,7 +42,7 @@
 }
 
 .article-title {
-	color: #000000;
+	color:white;
 	font-size: 16px;
 	font-weight: 600;
 }
@@ -43,7 +50,7 @@
 .article-description {
 	padding-top: 10px;
 	font-size: 12px;
-	color: var(--secondary-color);
+	color:azure;
 	font-weight: 480;
 	line-height: 25px;
 }
