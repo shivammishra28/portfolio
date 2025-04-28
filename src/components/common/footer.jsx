@@ -29,7 +29,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2024 Shivam Mishra  All Rights Reserved.
+						© 2025 Shivam Mishra  All Rights Reserved.
 					</div>
 				</div>
 			</div>
