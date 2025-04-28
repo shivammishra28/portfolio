@@ -32,7 +32,7 @@
 }
 
 .page-content {
-	background-color: white;
+	/* background-color: white; */
 	position: relative;
 }
 
@@ -42,9 +42,9 @@
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	width: calc((100% - 1200px) / 2);
+	/* width: calc((100% - 1200px) / 2); */
 	background-color: #fafafa;
-	border: 1px solid #f4f4f5;
+	/* border: 1px solid #f4f4f5; */
 }
 
 .page-content:before {
@@ -63,7 +63,7 @@
 }
 
 .title {
-	color: var(--primary-color);
+	color: white;
 	font-family: var(--secondary-font);
 	font-size: 45px;
 	font-weight: 700;
@@ -72,7 +72,7 @@
 
 .subtitle {
 	padding-top: 10px;
-	color: var(--secondary-color);
+	color: aquamarine;
 	font-size: 16px;
 	line-height: 28px;
 	width: 70%;
