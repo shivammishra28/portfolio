@@ -8,10 +8,21 @@
 }
 
 .homepage-article:hover {
-	background: #fafafa;
+	background: #d1d5db;;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
+.homepage-article:hover .homepage-article-title {
+	color: black;
+}
+.homepage-article:hover .homepage-article-description {
+	color: black;
+}
+.homepage-article:hover 
+.homepage-article-link a{
+	color: blue;
+}
+
 
 .homepage-article-content {
 	padding: 30px;
@@ -19,14 +30,14 @@
 
 .homepage-article-date {
 	opacity: 1;
-	color: var(--tertiary-color);
+	color: white;
 	font-size: 12px;
 	margin-bottom: 1em;
 }
 
 .homepage-article-title {
 	opacity: 1;
-	color: var(--primary-color);
+	color: white;
 	font-size: 16px;
 	margin-bottom: 1em;
 	font-weight: 700;
@@ -34,7 +45,7 @@
 
 .homepage-article-description {
 	opacity: 1;
-	color: var(--secondary-color);
+	color: white;
 	font-size: 12px;
 	line-height: 1.5;
 }
@@ -47,7 +58,7 @@
 }
 
 .homepage-article-link a {
-	color: var(--link-color);
+	color: aqua;
 	text-decoration: none;
 }
 
