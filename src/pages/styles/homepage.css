@@ -24,7 +24,15 @@
 }
 
 .homepage-title {
+	color:var(--primary-color);
 	width: 85% !important;
+	
+}
+.homepage-title span{
+	background: linear-gradient(to right, #1e3a8a, #3b82f6); /* dark blue to light blue */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
 }
 
 .homepage-subtitle {
@@ -91,6 +99,9 @@
 .homepage-works {
 	flex-basis: 600px;
 	padding-top: 30px;
+}
+.page-content{
+	
 }
 
 @media (max-width: 1024px) {
