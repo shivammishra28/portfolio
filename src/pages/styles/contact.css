@@ -64,7 +64,7 @@
 .contact-form input,
 .contact-form textarea {
 	width: 100%;
-/* 	padding: 12px; */
+	padding: 10px;
 	border-radius: 6px;
 	border: none;
 	color: black;
