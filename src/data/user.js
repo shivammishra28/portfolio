@@ -49,7 +49,7 @@ const INFO = {
 				"The TODO List Web Application is a sleek, user-friendly tool designed to help users manage their tasks efficiently. Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js), this application provides a seamless experience for creating, managing, and tracking daily tasks.",
 			logo: "https://tse1.explicit.bing.net/th?id=OIP.K-4RqDC6zFrpAG31ayDDOgHaHa&pid=Api&P=0&h=180",
 			linkText: "View Project",
-			link: "https://github.com/shivammishra28/ITask",
+			link: "https://i-task-mauve.vercel.app/",
 		},
 
 		{
