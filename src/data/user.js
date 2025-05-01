@@ -75,7 +75,14 @@ const INFO = {
 			logo: "https://tse3.mm.bing.net/th?id=OIP.5qW2QnFv0g6Y1z1W4bN8yAHaHa&pid=Api&P=0&h=180",
 			linkText: "View Project",
 			link: "https://github.com/shivammishra28/Scatch",
-		}
+		},
+		{
+ 			title: "Password Manager",
+  			description: "Password Manager is a secure web application designed to help users store and manage their passwords safely. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this application ensures that all stored passwords are encrypted and accessible only by the user.",
+  			logo: "https://your-image-link-here.com",  // Add an image URL for the logo
+  			linkText: "View Project",
+  			link: "https://password-manager-six-amber.vercel.app/",
+}
 
 		
 	],
