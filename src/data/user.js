@@ -66,7 +66,7 @@ const INFO = {
 				"Blogify is a blogging web application that allows users to create, share, and discover blog posts on various topics. Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js), Blogify provides a user-friendly interface for both bloggers and readers.",
 			logo: "https://tse4.mm.bing.net/th?id=OIP.2jJqg1qv7h3w0p8T8a4l9AHaHa&pid=Api&P=0&h=180",
 			linkText: "View Project",
-			link: "Blogify",
+			link: "https://github.com/shivammishra28/Blogify",
 		},
 		{
 			title:"Scatch -E-commerce Web-application",
@@ -79,10 +79,18 @@ const INFO = {
 		{
  			title: "Password Manager",
   			description: "Password Manager is a secure web application designed to help users store and manage their passwords safely. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this application ensures that all stored passwords are encrypted and accessible only by the user.",
-  			logo: "https://your-image-link-here.com",  // Add an image URL for the logo
+  			"logo": "https://i.imgur.com/M8D2Z6N.png",
   			linkText: "View Project",
   			link: "https://password-manager-six-amber.vercel.app/",
+		},
+		{
+  			"title": "Book Review Management API",
+  			"description": "Book Review Management is a RESTful API built using Node.js, Express.js, and MongoDB. It allows users to register, authenticate via JWT, and perform CRUD operations on books and reviews. The API supports features like user authentication, review system, search, filtering, and pagination.",
+			 "logo": "https://i.imgur.com/oQH4RkL.png",
+  			"linkText": "View Repository",
+  			"link": "https://github.com/shivammishra28/BookAPI"
 }
+
 
 		
 	],
