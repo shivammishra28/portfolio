@@ -87,7 +87,7 @@ const INFO = {
   			"title": "Book Review Management API",
   			"description": "Book Review Management is a RESTful API built using Node.js, Express.js, and MongoDB. It allows users to register, authenticate via JWT, and perform CRUD operations on books and reviews. The API supports features like user authentication, review system, search, filtering, and pagination.",
 			 "logo": "https://i.imgur.com/oQH4RkL.png",
-  			"linkText": "View Repository",
+  			"linkText": "View Project",
   			"link": "https://github.com/shivammishra28/BookAPI"
 }
 
