@@ -52,30 +52,30 @@ const INFO = {
 			link: "https://i-task-mauve.vercel.app/",
 		},
 
-		{
-			title: "Spam Email Detection",
-			description:
-				"The Spam Email Detection Website is an innovative web application designed to identify and filter out spam emails, ensuring a clutter-free and secure email experience. This project leverages machine learning algorithms to classify emails as spam or legitimate, providing users with a reliable tool to manage their inbox efficiently.",
-			logo: "https://tse2.mm.bing.net/th?id=OIP.DEF8Lkzsf_fdq2nVgsCDFwHaHC&pid=Api&P=0&h=180",
-			linkText: "View Project",
-			link: "https://github.com/shivammishra28/Spam-Email-Detection",
-		},
+		// {
+		// 	title: "Spam Email Detection",
+		// 	description:
+		// 		"The Spam Email Detection Website is an innovative web application designed to identify and filter out spam emails, ensuring a clutter-free and secure email experience. This project leverages machine learning algorithms to classify emails as spam or legitimate, providing users with a reliable tool to manage their inbox efficiently.",
+		// 	logo: "https://tse2.mm.bing.net/th?id=OIP.DEF8Lkzsf_fdq2nVgsCDFwHaHC&pid=Api&P=0&h=180",
+		// 	linkText: "View Project",
+		// 	link: "https://github.com/shivammishra28/Spam-Email-Detection",
+		// },
 		{
 			title: "Blogify- Blogging Web-application",
 			description:
 				"Blogify is a blogging web application that allows users to create, share, and discover blog posts on various topics. Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js), Blogify provides a user-friendly interface for both bloggers and readers.",
 			logo: "https://tse4.mm.bing.net/th?id=OIP.2jJqg1qv7h3w0p8T8a4l9AHaHa&pid=Api&P=0&h=180",
 			linkText: "View Project",
-			link: "https://github.com/shivammishra28/Blogify",
+			link: "https://blogify-knp3.onrender.com/",
 		},
-		{
-			title:"Scatch -E-commerce Web-application",
-			description:
-				"Scatch is a dynamic e-commerce web application that provides users with a seamless shopping experience. Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js), Scatch allows users to browse products, add items to their cart, and complete purchases effortlessly.",
-			logo: "https://tse3.mm.bing.net/th?id=OIP.5qW2QnFv0g6Y1z1W4bN8yAHaHa&pid=Api&P=0&h=180",
-			linkText: "View Project",
-			link: "https://github.com/shivammishra28/Scatch",
-		},
+		// {
+		// 	title:"Scatch -E-commerce Web-application",
+		// 	description:
+		// 		"Scatch is a dynamic e-commerce web application that provides users with a seamless shopping experience. Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js), Scatch allows users to browse products, add items to their cart, and complete purchases effortlessly.",
+		// 	logo: "https://tse3.mm.bing.net/th?id=OIP.5qW2QnFv0g6Y1z1W4bN8yAHaHa&pid=Api&P=0&h=180",
+		// 	linkText: "View Project",
+		// 	link: "https://github.com/shivammishra28/Scatch",
+		// },
 		{
  			title: "Password Manager",
   			description: "Password Manager is a secure web application designed to help users store and manage their passwords safely. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this application ensures that all stored passwords are encrypted and accessible only by the user.",
