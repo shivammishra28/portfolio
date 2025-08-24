@@ -66,7 +66,7 @@ const INFO = {
 				"Blogify is a blogging web application that allows users to create, share, and discover blog posts on various topics. Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js), Blogify provides a user-friendly interface for both bloggers and readers.",
 			logo: "https://tse4.mm.bing.net/th?id=OIP.2jJqg1qv7h3w0p8T8a4l9AHaHa&pid=Api&P=0&h=180",
 			linkText: "View Project",
-			link: "https://blogify-knp3.onrender.com/",
+			link: "https://blogify-1-o3o3.onrender.com",
 		},
 		// {
 		// 	title:"Scatch -E-commerce Web-application",
